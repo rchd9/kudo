@@ -1,0 +1,96 @@
+html,body, #__nuxt, #__layout{
+    height:100%!important;
+    width: 100%!important;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+a {
+    color: #35acd7;
+}
+
+.wrapper-box {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    padding-bottom: 48px;
+    padding-top: 37px;
+    max-width: 420px;
+}
+
+.form {
+    max-width: 320px;
+    margin: auto;
+}
+
+.btn-u,
+.btn-u:focus {
+    background-color: #3bb3e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) );
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.btn-u:active {
+    top: 3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(62,184,229)), color-stop(1, rgb(44,160,202)) );
+    box-shadow: none;
+}
+
+.actions {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.actions li {
+    margin-right: 12px;
+}
+
+.kudo-title {
+    font-size: 19px;
+    margin-top: 20px;
+    color: #2fa4ce;
+    border: 2px dotted;
+    padding: 15px;
+}
+.kudo-card {
+    min-height: 200px;
+    background-color: #cfcfff;
+    cursor: pointer;
+}
+.kudo-card-detail {
+
+}
+.kudo-card-detail .card-header {
+    background-color: #cfdef9;
+    font-weight: 600;
+    font-size: 23px;
+}
+.kudo-card-detail .card-footer {
+    font-size: 12px;
+    background-color: #cfdef9;
+}
